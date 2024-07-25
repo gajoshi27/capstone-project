@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+#nav-menu {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(241, 239, 239);
+  padding: 15px 10px 15px 10px;
+}
+
+.nav-items {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 35px;
+  color: black;
+}
+
+.nav-items:hover {
+  text-decoration: underline;
+  text-underline-offset: 17px;
+  text-decoration-thickness: 3px;
+  color: rgb(61, 55, 55);
+}
+
+#image-container {
+    background-image: url("nyc.png");
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #mission {
+    font-size: 30px;
+    padding-left: 400px;
+    background-color: rgb(223, 223, 223);
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
